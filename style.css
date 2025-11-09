@@ -1,7 +1,6 @@
-/* ===== Reset & Fonts ===== */
-body{
+body {
   margin: 0;
-  padding: 0; 
+  padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   background-color: #f8f5fa;
@@ -19,7 +18,7 @@ body{
 .logo {
   color: white;
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 20px;
 }
 
 .navbar ul {
@@ -51,7 +50,6 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .hero-text {
@@ -60,7 +58,7 @@ body{
 }
 
 .hero-text h1 {
-  font-size: 2.8rem;
+  font-size: 44px;
 }
 
 .hero-text h1 span {
@@ -98,30 +96,54 @@ body{
   height: 300px;
   border-radius: 50%;
   border: 5px solid #d8b4e2;
-  object-fit: cover;
 }
+
 /* About Me */
-.text-container h1{
-    font-size: 28px;
-    Font weight: bold;
-    Color: #444444 ;
-    padding: 10px 25px;
-    margin-bottom: 15px ;
+.text-container h1 {
+  font-size: 28px;
+  Font weight: bold;
+  Color: #444444;
+  padding: 10px 25px;
+  margin-bottom: 15px;
 }
-.text-container p{
-    font-size: 18px ;
-    line-height: 1.5;
-    color: #555555 ;
-    max-width:800px;
-    padding: 10px 25px;
-    margin-bottom: 20px;
+
+.text-container p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #555555;
+  max-width: 800px;
+  padding: 10px 25px;
+  margin-bottom: 20px;
 }
+
 /* Skill */
-.text-container h4{
-  color: #555555 ;
-    padding: 10px 25px;
-    margin-bottom: 20px;
+.text-container h4 {
+  color: #555555;
+  padding: 10px 25px;
+  margin-bottom: 20px;
 }
-.text-container img{
+
+.text-container img {
   padding: 30px;
+}
+
+/* Projects */
+
+/* Journey */
+
+/* Contact */
+.text-container .git{
+  padding: 5px;
+
+}
+.text-container .git:hover
+{
+ background-color: black;
+}
+/* Go To Top Link */
+.text-container a {
+  text-decoration: none;
+  padding: 10px 25px;
+  margin-bottom: 30px;
+
 }
